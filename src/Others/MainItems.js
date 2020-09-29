@@ -29,17 +29,26 @@ export const whatsappIcon = 'M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.5
 export const wordpressIcon = "M3.42,12C3.42,10.76 3.69,9.58 4.16,8.5L8.26,19.72C5.39,18.33 3.42,15.4 3.42,12M17.79,11.57C17.79,12.3 17.5,13.15 17.14,14.34L16.28,17.2L13.18,8L14.16,7.9C14.63,7.84 14.57,7.16 14.11,7.19C14.11,7.19 12.72,7.3 11.82,7.3L9.56,7.19C9.1,7.16 9.05,7.87 9.5,7.9L10.41,8L11.75,11.64L9.87,17.27L6.74,8L7.73,7.9C8.19,7.84 8.13,7.16 7.67,7.19C7.67,7.19 6.28,7.3 5.38,7.3L4.83,7.29C6.37,4.96 9,3.42 12,3.42C14.23,3.42 16.27,4.28 17.79,5.67H17.68C16.84,5.67 16.24,6.4 16.24,7.19C16.24,7.9 16.65,8.5 17.08,9.2C17.41,9.77 17.79,10.5 17.79,11.57M12.15,12.75L14.79,19.97L14.85,20.09C13.96,20.41 13,20.58 12,20.58C11.16,20.58 10.35,20.46 9.58,20.23L12.15,12.75M19.53,7.88C20.2,9.11 20.58,10.5 20.58,12C20.58,15.16 18.86,17.93 16.31,19.41L18.93,11.84C19.42,10.62 19.59,9.64 19.59,8.77L19.53,7.88M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,21.54C17.26,21.54 21.54,17.26 21.54,12C21.54,6.74 17.26,2.46 12,2.46C6.74,2.46 2.46,6.74 2.46,12C2.46,17.26 6.74,21.54 12,21.54Z";
 export const linkIcon = 'M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z'
 export const giftIcon = 'https://image.flaticon.com/icons/svg/1867/1867817.svg'
+export const androidIcon = 'https://www.vectorlogo.zone/logos/android/android-icon.svg'
+export const javaIcon = 'https://www.vectorlogo.zone/logos/java/java-icon.svg'
+
+//Custom vars
+function getYearsAgo(oldYear){
+    let currYear = new Date().getFullYear();
+    let year = currYear - oldYear;
+
+    return year > 1 ? year + " years" : "a year";
+}
 
 // First page infos
-export var myName = 'Fayaz Bin Salam'
-export var myOccupation = 'CEO at Rich IT'
-export var myDetails = 'Hello, I am Fayaz Bin Salam. I love Programming, making application/software for Mobile, Web and Desktop. For me, A Computer or A Mobile phone is nothing but some plastics and metals. But when it understands my language, it feels like a miracle!\nI started programming as a hobby since 2009. Wrote my first few scripts in Batch and VBScript. Later I learned C, C++, Java, Python, JavaScript etc, Worked in so many libraries & frameworks like ReactJS(one of my favorites), Angular2+, NodeJS, worked using so many technologies like Git, Arduino, etc. It does feel amazing to see myself improving. Hope to improve everything around me one day...'
+export var myName = 'micrusa'
+export var myOccupation = 'Hobby programmer'
+export var myDetails = `I have been coding as a hobby for many years, my first projects were about ${getYearsAgo(2016)} ago, and they were just simple batch/bash scripts with a few lines, then I created some discord bots and effortless programs on node.js and python, and learnt to use tools like git and some IDEs, finally ${getYearsAgo(2019)} ago I created my first android app and java, C#, php programs from zero, publishing my first open source project on github after some months. I am still learning new languages, tools, IDEs, and I will keep doing it because I love it`
 export var myImageLink = ""
-export var primaryColor = '#00C853';
+export var primaryColor = '#304ffe';
 
 export const navItems = [
     "About",
-    "Skills",
     "Projects",
     "Contact",
 ]
@@ -47,8 +56,8 @@ export const navItems = [
 export const navContactIcons = [
     {
         svgPath: githubIcon,
-        link: 'https://github.com/p32929'
-    },
+        link: 'https://github.com/micrusa'
+    }/*,
     {
         svgPath: facebookIcon,
         link: 'https://facebook.com/p32929'
@@ -56,7 +65,7 @@ export const navContactIcons = [
     {
         svgPath: wordpressIcon,
         link: 'https://p32929.wordpress.com/'
-    }
+    }*/
 ]
 
 //

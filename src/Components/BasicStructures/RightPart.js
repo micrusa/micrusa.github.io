@@ -87,7 +87,6 @@ const RightPart = () => {
             <Grid id='right-bottom-elements' container style={{...bottomElementStyle, ...styles.content}}>
                 <Switch>
                     <Route exact path="/about" component={AboutRoute}/>
-                    <Route exact path="/skills" component={SkillsRoute}/>
                     <Route exact path="/projects" component={ProjectsRoute}/>
                     <Route exact path="/contact" component={ContactRoute}/>
                 </Switch>
