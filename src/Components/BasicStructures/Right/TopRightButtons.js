@@ -25,15 +25,6 @@ const TopRightButtons = () => {
                     styles={{padding: 8}}
                     size={36}/>
             </IconButton>
-
-            <IconButton size='small' onClick={() => {
-                actions.setShowColorPickerDialog(!state.showColorPickerDialog)
-            }}>
-                <SvgHelper
-                    path='M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z'
-                    styles={{padding: 8}}
-                    size={36}/>
-            </IconButton>
         </Grid>
     );
 };

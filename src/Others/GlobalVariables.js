@@ -41,6 +41,12 @@ export const projects = [
                 logo: 'https://raw.githubusercontent.com/micrusa/SimpleGithubStats/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png',
                 desc: 'A simple app to see stats of a github user or repo allowing to download releases',
                 link: 'https://github.com/micrusa/SimpleGithubStats'
+            },
+            {
+                title: 'Math Game',
+                logo: 'https://i.imgur.com/6oknFYz.png',
+                desc: 'A game that generates random math operations according to the selected level that you have to solve',
+                link: 'https://labs.xda-developers.com/store/app/xyz.micrusa.mathgame'
             }
         ]
     },
@@ -53,23 +59,6 @@ export const projects = [
                 desc: 'A java program for windows to set screen preferences on sunrise and sunset',
                 link: 'https://github.com/micrusa/AutoScreenSettings'
             }
-        ]
-    },
-    {
-        text: "Other",
-        arr: [
-            {
-                title: 'Lavender volume booster',
-                logo: giftIcon,
-                desc: 'Simple magisk volume booster for Redmi Note 7',
-                link: 'https://github.com/micrusa/Lavender_volume_boost'
-            },
-            {
-                title: 'mThermal',
-                logo: giftIcon,
-                desc: 'A magisk thermal mod for Redmi Note 7',
-                link: 'https://github.com/micrusa/mThermal'
-            },
         ]
     }
 ]
