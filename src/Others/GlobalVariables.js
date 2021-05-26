@@ -31,6 +31,12 @@ export const projects = [
         text: "Android Apps",
         arr: [
             {
+                title: 'FitCalc',
+                logo: 'https://i.imgur.com/Q6BQYVG.png',
+                desc: 'Fitness Calculator with BMI, TDEE, Macro Split, body fat and many other different calculators',
+                link: 'https://play.google.com/store/apps/details?id=xyz.micrusa.fitnesscalc'
+            },
+            {
                 title: 'AmazTimer',
                 logo: 'https://raw.githubusercontent.com/micrusa/AmazTimer/master/app/src/main/ic_launcher-playstore.png',
                 desc: 'Interval/Workout timer app with HR/kcal/tcx exports, automatic reps detection and workouts viewer for Amazfit devices',
